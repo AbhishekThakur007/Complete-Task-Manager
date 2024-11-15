@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Simple Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Simple Task Manager** is a lightweight, user-friendly application for managing tasks. It allows users to create, edit, delete, search, and filter tasks, with support for priorities and light/dark themes. The app is built with React and styled using Tailwind CSS.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Task Management**: Add, edit, and delete tasks with ease.
+- **Prioritization**: Set task priority levels (High, Medium, Low).
+- **Search and Filter**: Quickly find tasks or filter them based on status and priority.
+- **Theme Toggle**: Switch between light and dark mode with a smooth slider.
+- **Local Storage**: Tasks are stored in the browser’s local storage to persist across sessions.
+- **Dynamic UI**: Clean and responsive interface styled with Tailwind CSS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend**: React
+- **Styling**: Tailwind CSS
+- **Storage**: LocalStorage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project, ensure you have the following installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js** (v14 or later)
+- **npm** or **yarn**
+- **Visual Studio Code** (or your preferred code editor)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Setup Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow these steps to set up and run the application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd simple-task-manager
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Install Dependencies
+Run the following command to install the required packages:
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Start the Development Server
+Launch the app locally using:
+```bash
+npm start
+```
 
-## Learn More
+The app will be available at `http://localhost:3000` in your default browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Running the Project in Visual Studio Code
 
-### Code Splitting
+1. Open **Visual Studio Code**.
+2. Navigate to `File > Open Folder` and select the `simple-task-manager` project folder.
+3. Open an integrated terminal in VS Code (`Ctrl + \`` or `Terminal > New Terminal`).
+4. Run the setup commands (`npm install`, followed by `npm start`).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Improvements
 
-### Analyzing the Bundle Size
+If more time or resources were available, here are a few potential enhancements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **User Accounts**: Allow users to log in and save tasks across devices.
+- **Backend Integration**: Store tasks in a database for better persistence and scalability.
+- **Notifications**: Add reminders for upcoming or overdue tasks.
+- **Recurring Tasks**: Allow users to set repeating tasks.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Assumptions Made
 
-### Advanced Configuration
+- Users want a simple, no-frills task manager.
+- Local storage suffices for basic use cases.
+- Light and dark themes provide an optimal user experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is open-source and available under the MIT License.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out with any questions or suggestions!
+
+---
+
+NOTE :-
+
+Replace `<repository-url>` in the instructions with the URL of your Git repository.
